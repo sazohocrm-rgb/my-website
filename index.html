@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pulse Studio</title>
+    <meta
+      name="description"
+      content="A modern animated landing page ready for GitHub Pages."
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Pulse Studio home">
+        <span class="brand-mark"></span>
+        Pulse Studio
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Digital product studio</p>
+          <h1>Sharp websites with motion, clarity, and a little bite.</h1>
+          <p class="hero-text">
+            We create fast, focused web experiences for teams that want to look current without
+            burying visitors under noise.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Start a project</a>
+            <a class="button secondary" href="#work">See the work</a>
+          </div>
+        </div>
+
+        <div class="showcase reveal" aria-label="Animated website preview">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="preview-window">
+            <div class="preview-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="metric-card large">
+              <span>Launch score</span>
+              <strong>98</strong>
+              <div class="meter"><span></span></div>
+            </div>
+            <div class="preview-grid">
+              <div class="metric-card">
+                <span>Speed</span>
+                <strong>0.8s</strong>
+              </div>
+              <div class="metric-card">
+                <span>Motion</span>
+                <strong>Live</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected focus</p>
+          <h2>Everything has a job.</h2>
+        </div>
+        <div class="work-grid">
+          <article class="work-card reveal">
+            <span>01</span>
+            <h3>Fast first impression</h3>
+            <p>Strong opening section, clear actions, and responsive spacing from desktop to phone.</p>
+          </article>
+          <article class="work-card reveal">
+            <span>02</span>
+            <h3>Animated interface</h3>
+            <p>Scroll reveals, floating panels, hover lift, and pointer-aware glow without heavy libraries.</p>
+          </article>
+          <article class="work-card reveal">
+            <span>03</span>
+            <h3>GitHub ready</h3>
+            <p>Plain static files that can be pushed to a repository and published with GitHub Pages.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="section split">
+        <div class="reveal">
+          <p class="eyebrow">Services</p>
+          <h2>Design polish for practical launches.</h2>
+        </div>
+        <div class="service-list reveal">
+          <div>
+            <h3>Landing pages</h3>
+            <p>Clean pages for products, creators, events, and small businesses.</p>
+          </div>
+          <div>
+            <h3>Interface cleanup</h3>
+            <p>Sharper layouts, better hierarchy, mobile fixes, and smoother interactions.</p>
+          </div>
+          <div>
+            <h3>Static deployment</h3>
+            <p>Simple sites that stay easy to host, edit, and share.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact reveal">
+        <p class="eyebrow">Ready when you are</p>
+        <h2>Bring the idea. We will give it shape.</h2>
+        <a class="button primary" href="mailto:hello@example.com">hello@example.com</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Pulse Studio</span>
+      <span>Modern static website template</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
